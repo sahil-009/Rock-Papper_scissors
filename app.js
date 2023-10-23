@@ -34,6 +34,19 @@ function getResult(){
     if (computer_choice === user_choice){
         result = 'its a draw!'
     }
-    
-
+    if (computer_choice === 'rock' && user_choice === 'paper'){
+        result = 'You Win!'
+    }
+    if (computer_choice === 'rock' && user_choice === 'scissor'){
+        result = 'You lose!'
+    }
+    if (computer_choice === 'paper' && user_choice === 'scissor'){
+        result = 'You Win!'
+    }
+    if (computer_choice === 'paper' && user_choice === 'rock'){
+        result = 'You win!'
+    }
+    if (computer_choice === 'scissor' && user_choice === 'rock'){
+        result = 'You lose!'
+    }
 }
