@@ -1,2 +1,2 @@
-# Rock-Papper_scissors
+# Rock-Papper-scissors
 html and js
