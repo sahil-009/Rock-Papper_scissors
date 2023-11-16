@@ -17,6 +17,7 @@ function generateComputerChoice() {
     const randomnumber = Math.floor(Math.random() * 3) + 1
     // console.log(randomnumber)
 
+
     if (randomnumber === 1){
         computer_choice = 'rock'
     }
@@ -27,11 +28,12 @@ function generateComputerChoice() {
         computer_choice = 'papper'
     }
 
-    computer_choice_displayed.innerHTML = computer_choice
+    computer_choice_displayed.innerHTML = computer_choice;
     computer_choice_displayed.style.color='green';
 }
 
 function getResult(){
+
     if (computer_choice === user_choice){
         result = 'its a draw!'
     }
@@ -49,6 +51,7 @@ function getResult(){
     }
     if (computer_choice === 'scissor' && user_choice === 'rock'){
         result = 'You lose!'
+
     }
     result_displayed.innerHTML=`${result}`
     result_displayed.style.color='red';
