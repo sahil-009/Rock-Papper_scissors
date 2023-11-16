@@ -27,7 +27,8 @@ function generateComputerChoice() {
         computer_choice = 'papper'
     }
 
-computer_choice_displayed.innerHTML = computer_choice
+    computer_choice_displayed.innerHTML = computer_choice
+    computer_choice_displayed.style.color='green';
 }
 
 function getResult(){
@@ -50,4 +51,5 @@ function getResult(){
         result = 'You lose!'
     }
     result_displayed.innerHTML=`${result}`
+    result_displayed.style.color='red';
 }
