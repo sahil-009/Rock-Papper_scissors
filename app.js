@@ -49,4 +49,5 @@ function getResult(){
     if (computer_choice === 'scissor' && user_choice === 'rock'){
         result = 'You lose!'
     }
+    result_displayed.innerHTML=`${result}`
 }
