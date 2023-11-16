@@ -1,27 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock-Papper-Scissors</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <h2>Computer choice: <span id="computer-choice"></span</h2>
-    <h2>Your Choice: <span id="user-choice"></span></h2>
-    <h2>Result: <span id="result"></span></h2>
-    
+    <div class="container">
+        <h1>Computer choice: <span id="computer-choice"></span></h1>
+        <h1>Your Choice: <span id="user-choice"></span></h1>
+        <h1>Result: <span id="result"></span></h1>
 
-    <button id="rock">Rock</button>
-    <button id="papper">Papper</button>
-    <button id="scissor">Scissors</button>
-    <button id="show" onclick=getResult()>Result</button>
-    
+        <div class="btn">
+            <button id="rock">Rock</button>
+            <button id="papper">Papper</button>
+            <button id="scissor">Scissors</button>
+
+            <button id="show" onclick="getResult()">Result</button>
+        </div>
+    </div>
 
 
 
+    <script src="app.js" />
 
 
-    <script src="app.js"/>
 </body>
+
 </html>
